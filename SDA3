@@ -35,14 +35,14 @@ main()
     {
         cout<<endl<<"----Projek single linked list----"<<endl;
         cout<<endl<<"----------------------------------"<<endl;
-        cout<<"1.Insert first"<<endl;
-        cout<<"2.Insert last"<<endl;
-        cout<<"3.Insert after"<<endl;
-        cout<<"4.Delete a Particular Node"<<endl;
+        cout<<"1.Insert first(masukkan diawal)"<<endl;
+        cout<<"2.Insert last(masukkan di akhir)"<<endl;
+        cout<<"3.Insert after(masukkan setelah)"<<endl;
+        cout<<"4.Delete a Particular Node(hapus node)"<<endl;
         cout<<"5.Search Element/pencarian"<<endl;
         cout<<"6.Tampilkan list"<<endl;
-        cout<<"7.Exit "<<endl;
-        cout<<"Enter your choice : ";
+        cout<<"7.Kembali "<<endl;
+        cout<<"Masukkan pilihanmu : ";
         cin>>choice;
         switch(choice)
         {
